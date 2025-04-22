@@ -1,7 +1,7 @@
 ### 🗞️ News Recommendation System using Advanced LLM Concepts
 This repository presents a personalized, explainable news recommendation system that integrates cutting-edge Large Language Models (LLMs), including LLaMA-3.2-1B, with tools like FAISS, SQLite, and Gradio. It is designed to overcome cold-start problems, enhance transparency, and provide dynamic recommendations based on real-time user interactions.
 
-🚀 Project Overview
+### 🚀 Project Overview
 Traditional news recommendation engines face challenges like:
 
 Cold-start user problems
