@@ -24,7 +24,7 @@ Model: Sentence-transformers/all-MiniLM-L6-v2 for embeddings
 LLM: LLaMA-3.2-1B for natural language explanations
 Dataset: MINDsmall (https://msnews.github.io/)
 
-🛠️ Features
+### 🛠️ Features
 ✅ Real-time user-based recommendation
 
 ✅ Semantic article retrieval using FAISS
@@ -35,14 +35,14 @@ Dataset: MINDsmall (https://msnews.github.io/)
 
 ✅ Gradio-powered interactive UI
 
-⚙️ System Architecture
+### ⚙️ System Architecture
 User Query → Embedding → FAISS Search → Scoring Engine → Top Articles
 ↓
 SQLite User History ← Click Weights
 ↓
 LLaMA-3.2-1B Generated Explanation
 
-🧪 Technologies Used
+### 🧪 Technologies Used
 
 Component	Tech Stack
 Embedding	Sentence-Transformers / MiniLM-L6-v2
@@ -52,7 +52,7 @@ User DB	SQLite
 Interface	Gradio
 Language	Python
 
-📈 Performance Snapshot
+### 📈 Performance Snapshot
 Category relevance (top-1 match): ~85% (sample of 10 users)
 
 Embedding generation: ~10 mins (for 50k articles)
@@ -61,7 +61,7 @@ FAISS indexing: < 1 minute
 
 Real-time interaction via Gradio
 
-🚧 Limitations
+### 🚧 Limitations
 Explanation quality limited by 1B parameter model
 
 Static dataset, lacks live data updates
@@ -70,7 +70,7 @@ Dominant preference bias (proportional scoring)
 
 GPU constraints (tested on Google Colab T4)
 
-📌 Future Enhancements
+### 📌 Future Enhancements
 🔄 Live news ingestion via NewsAPI
 
 🖼️ Multimodal support (image + text with CLIP)
@@ -82,7 +82,7 @@ GPU constraints (tested on Google Colab T4)
 ☁️ Deployable via FastAPI + Docker + Kubernetes
 
 
-📬 Contact
+### 📬 Contact
 For queries, drop a message via GitHub Issues or connect via LinkedIn.
 
 Built with ❤️ to make news consumption smarter and personalized.
